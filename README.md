@@ -66,19 +66,8 @@ Features:
 - Notification system for all actions
 - Read receipt synchronization with Telegram
 
-### 2. **Auto-responder Mode**
-Run the automated response system:
-```bash
-python -c "from src.core.auto_responder import AutoResponder; import asyncio; asyncio.run(AutoResponder().start())"
-```
 
-Features:
-- Real-time monitoring of new messages
-- Automatic lead detection (Spanish conversations)
-- AI-generated responses based on knowledge base
-- Processing of existing unread messages on startup
-
-### 3. **Manual Analysis Mode**
+### 2. **Manual Analysis Mode**
 For individual dialog analysis:
 ```bash
 python src/main.py
