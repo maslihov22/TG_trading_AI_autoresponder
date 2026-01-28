@@ -52,7 +52,7 @@ The system uses RAG (Retrieval-Augmented Generation) with knowledge base files i
 
 ## 🎯 Usage Options
 
-### 1. **GUI Application (Recommended)**
+###  **GUI Application (Recommended)**
 Launch the modern graphical interface:
 ```bash
 python src/main.py
@@ -65,14 +65,6 @@ Features:
 - Interactive dialog analysis panel
 - Notification system for all actions
 - Read receipt synchronization with Telegram
-
-
-### 2. **Manual Analysis Mode**
-For individual dialog analysis:
-```bash
-python src/main.py
-```
-Then use the console interface to analyze specific dialogs.
 
 ## 🏗️ Project Architecture
 
