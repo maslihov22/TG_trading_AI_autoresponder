@@ -1,0 +1,24 @@
+{
+    "id":"banks_list",
+    "title":"Разрешённые банки и каналы",
+    "text":"Допустимые: Banco de Crédito del Perú (BCP), BBVA Perú, Interbank, Yape, Plin. При выдаче реквизитов использовать только официальные реквизиты платформы;",
+    "source":"prompt_v1",
+    "last_updated": DATE,
+    "tags":["banks","channels"]
+},
+{
+    "id":"bank_usage_rules",
+    "title":"Правила использования банков и реквизитов",
+    "text":"Правила: 1) выдавать реквизиты только из админ-интерфейса/официального источника; 2) фиксировать в логе версию реквизитов и timestamp; 3) если реквизиты не совпадают с официальными — эскалировать;",
+    "source":"prompt_v1",
+    "last_updated": DATE,
+    "tags":["banks","protocol"]
+},
+{
+    "id":"bank_examples_phrases",
+    "title":"Примеры фраз при выдаче реквизитов (es)",
+    "text":"Пример: 'Usa los datos oficiales de la plataforma: Banco: {bank}, Cuenta: {account}, Titular: {holder}. Confirma cuando hayas realizado el pago y envía el comprobante.' Всегда добавлять reminder о рисках и предлагать отправить квитанцию на проверку менеджеру.",
+    "source":"prompt_v1",
+    "last_updated": DATE,
+    "tags":["banks","phrases","es"]
+}

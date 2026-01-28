@@ -1,0 +1,15 @@
+# Santiago Telegram Bot Dependencies
+
+# AI and Machine Learning
+mistralai
+faiss-cpu
+numpy
+
+# Telegram Client
+telethon
+
+# GUI Framework
+flet
+
+# Utilities
+asyncio
